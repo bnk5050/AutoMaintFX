@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="automaintfx.view.LoginWindowController">
+   <children>
+      <Label layoutX="46.0" layoutY="83.0" prefHeight="17.0" prefWidth="69.0" text="Username: " AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="83.0" />
+      <TextField fx:id="usernameField" layoutX="132.0" layoutY="79.0" prefHeight="25.0" prefWidth="217.0" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="51.0" AnchorPane.topAnchor="79.0" />
+      <Button layoutX="297.0" layoutY="154.0" mnemonicParsing="false" onAction="#handleOK" text="Login" />
+      <Label layoutX="164.0" layoutY="26.0" text="Login" AnchorPane.bottomAnchor="131.0" AnchorPane.leftAnchor="164.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
